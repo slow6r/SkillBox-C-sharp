@@ -1,0 +1,15 @@
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/bin/Debug/net8.0/task3
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/bin/Debug/net8.0/task3.deps.json
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/bin/Debug/net8.0/task3.runtimeconfig.json
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/bin/Debug/net8.0/task3.dll
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/bin/Debug/net8.0/task3.pdb
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/task3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/task3.AssemblyInfoInputs.cache
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/task3.AssemblyInfo.cs
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/task3.csproj.CoreCompileInputs.cache
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/task3.sourcelink.json
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/task3.dll
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/refint/task3.dll
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/task3.pdb
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/task3.genruntimeconfig.cache
+/Users/fedor/Desktop/SkillBox/c-sharp-practic/Project2/task3/obj/Debug/net8.0/ref/task3.dll
