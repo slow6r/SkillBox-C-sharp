@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WPF Application" Height="350" Width="500">
+
+  <!-- Добавляем ресурсы окна -->
+  <Window.Resources>
+    <!-- Объявляем BooleanToVisibilityConverter -->
+    <BooleanToVisibilityConverter x:Key="BoolToVisConverter" />
+  </Window.Resources>
+
+  <Grid Margin="10">
+    <StackPanel>
+      <!-- Ввод предложения для разделения на слова -->
+      <Grid Margin="0,0,0,10">
+        <TextBox x:Name="inputTextBox" Width="300"
+                 HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <TextBlock Text="Введите предложение для разделения на слова"
+                   IsHitTestVisible="False"
+                   Foreground="Gray" Margin="5,3,0,0"
+                   Visibility="{Binding Text.IsEmpty, ElementName=inputTextBox, 
+                                                Converter={StaticResource BoolToVisConverter}}" />
+      </Grid>
+
+      <Button Content="Разделить на слова" Width="150" Margin="0,0,0,10"
+              Click="OnSplitWordsButtonClick" />
+
+      <ListBox x:Name="wordsListBox" Width="300" Height="100" Margin="0,0,0,10"
+               HorizontalAlignment="Left" />
+
+      <!-- Ввод предложения для перестановки слов -->
+      <Grid Margin="0,0,0,10">
+        <TextBox x:Name="reverseTextBox" Width="300"
+                 HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <TextBlock Text="Введите предложение для перестановки слов"
+                   IsHitTestVisible="False"
+                   Foreground="Gray" Margin="5,3,0,0"
+                   Visibility="{Binding Text.IsEmpty, ElementName=reverseTextBox, 
+                                                Converter={StaticResource BoolToVisConverter}}" />
+      </Grid>
+
+      <Button Content="Переставить слова" Width="150" Margin="0,0,0,10"
+              Click="OnReverseWordsButtonClick" />
+
+      <Label x:Name="reversedSentenceLabel" Width="300" Height="30"
+             HorizontalAlignment="Left" VerticalAlignment="Top"
+             Content="Результат перестановки слов" />
+    </StackPanel>
+  </Grid>
+</Window>
